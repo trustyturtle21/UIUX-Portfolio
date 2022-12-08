@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Indie Flower'), local('IndieFlower'),
+        url('./fonts/indie-flower-v12-latin-regular.woff2') format('woff2'),
+        url('./fonts/indie-flower-v12-latin-regular.woff') format('woff'),
+        
+}
+
+@font-face {
+    font-family: 'Dekko';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dekko')
+        url('./fonts/dekko-v7-latin-regular.woff2') format('woff2'),
+        url('./fonts/dekko-v7-latin-regular.woff') format('woff'),
+        
+}
+
+body{
+    font-family: "Dekko";
+    background-color: #73a580
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Indie Flower";
+}
+
+.blankets {
+    background: center;
+    height: 100vh;
+}
+
+.blanket {
+  background: center;
+  height: 20vh;
+}
+
+.pad-section {
+    padding: 50px 0;
+    background-color: #3e363f;
+    color: #ffffff;
+  }
+.pad-section img {
+    width: 100%;
+  }
+
+  .footer-section{
+    background-color: #e1ad01;
+ 
+
+  }
+
+  .center {
+    margin: auto;
+
+  }
+
