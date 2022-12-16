@@ -1,62 +1,40 @@
-@font-face {
-    font-family: 'Indie Flower';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Indie Flower'), local('IndieFlower'),
-        url('./fonts/indie-flower-v12-latin-regular.woff2') format('woff2'),
-        url('./fonts/indie-flower-v12-latin-regular.woff') format('woff'),
-        
-}
-
-@font-face {
-    font-family: 'Dekko';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Dekko')
-        url('./fonts/dekko-v7-latin-regular.woff2') format('woff2'),
-        url('./fonts/dekko-v7-latin-regular.woff') format('woff'),
-        
-}
 
 body{
-    font-family: "Dekko";
-    background-color: #73a580
-}
-
-h1,
-h2,
-h3,
-h4 {
-    font-family: "Indie Flower";
-}
-
-.blankets {
-    background: center;
-    height: 100vh;
-}
-
-.blanket {
-  background: center;
-  height: 20vh;
-}
-
-.pad-section {
-    padding: 50px 0;
-    background-color: #3e363f;
-    color: #ffffff;
-  }
-.pad-section img {
-    width: 100%;
-  }
-
-  .footer-section{
-    background-color: #e1ad01;
+  background-color: #73a580;
  
+}
 
-  }
+.color {
+  background-color: #73a580;
 
-  .center {
-    margin: auto;
+}
 
-  }
+.navbar-custom {
+  background-color: #3e363f;
 
+}
+
+.card-custom {
+  background-color: #3e363f;
+
+}
+
+.footer {
+  height: 10vh
+}
+.background {
+  height: 100vh;
+}
+
+.fade-in-image {
+  animation: fadeIn 5s; 
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.card:hover,
+.card:focus {
+filter: brightness(85%)
+}

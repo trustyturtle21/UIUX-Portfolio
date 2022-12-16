@@ -6,76 +6,129 @@
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Name - Portfolio</title>
-    <style>
-        .navbar{
-        position: fixed; /* Set the navbar to fixed position */
-        top: 0; /* Position the navbar at the top of the page */
-        width: 100%; /* Full width */
-        }
-      .navbar-nav {
-        margin-left: auto;
-      }
-    </style>
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Name</a>
-        <div class="collapse navbar-collapse">
+    <!-- NAVBAR-->
+    <nav class="navbar fixed-top navbar-custom navbar-expand-lg navbar-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <!-- Logo Text -->
+          <span class="font-weight-bold">Name</span>
+        </a>
+
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          id="navbarSupportedContent"
+          class="collapse navbar-collapse justify-content-end"
+        >
           <ul class="navbar-nav ml-auto">
-            <li class="navbar-item"><a class="nav-link" href="#">Portfolio</a></li>
-            <li class="navbar-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item active">
+              <a href="about.html" class="nav-link">About Me</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
 
-    <div class="d-flex flex-column blankets justify-content-center align-items-center">
-        <h1 class="text-light">Hello, I'm Name</h1>
-        <h2 class="text-light">A Student Taking UI/UX At Brown!</h2>
-        <img alt="image of a turtle" src="turtle!.png" style="width:200px !important;height:200px !important;">
+    <div
+      class="d-flex flex-column background justify-content-center align-items-center"
+    >
+     <div class="fade-in-image">
+      <h1 class="text-light">Hello, I'm Name</h1>
+    </div>
+    <div class="fade-in-image">
+      <h2 class="text-light">A Student Taking UI/UX At Brown!</h2>
+    </div>
+      <div class="fade-in-image">
+      <img 
+        alt="image of a turtle"
+        src="turtle!.png"
+        style="width: 200px !important; height: 200px !important"
+      />
+     </div>
     </div>
 
-    <div id="team" class="pad-section">
-		<div class="container">
-			<h3 class="text-center">Projects</h3> <hr>
-			<div class="row text-center">
-				
-				<div class="col-sm-3 col-xs-4">
-                    <h4>Personas & Storyboarding</h4>
-                    <a href="persona.html">
-                        <img src="personas.png"style="width:250px !important;height:150px !important;"></a>
-                    <p>Observing/Interviewing
-                    </p>
-				</div>
-                <div class="col-sm-3 col-xs-4">
-                    <h4>Eye Tracking</h4>
-                    <a href="https://www.figma.com/proto/RSg4r4BD9L3DJ6lbBZlYnc/Eye-Tracking?page-id=0%3A1&node-id=2%3A30&viewport=638%2C638%2C0.33&scaling=contain">
-                        <img src="eye.png"style="width:250px !important;height:150px !important;"></a>
-                      <p>Bakery/Figma  </p>
-				</div>
-                <div class="col-sm-3 col-xs-4">
-                    <h4>Iterative Design</h4>
-                    <a href="iterative.html">
-                        <img src="iterative.png"style="width:250px !important;height:150px !important;"></a>
-                        <p>Startup/Figma  </p>
-				</div>
-                <div class="col-sm-3 col-xs-4">
-                    <h4>React</h4>
-                    <a href="https://trustyturtle21.github.io/Development/">
-                        <img src="development.png"style="width:250px !important;height:150px !important;"></a>
-                    <p>Anime/React  </p>
-				</div>
-				
+    <div class="container">
+      <div id="projects">
+      <h3 class="text-center text-light mt-1"><br><br>Projects</h3>
+      </div>
+      <hr>
+      <div class="row">
+
+        <div class="col-sm-6">
+          <div class="card m-4 text-center card-custom text-light">
+            <div class="card-body">
+              <h5 class="card-title">Personas & Storyboarding</h5>
+              <a class="stretched-link" href="persona.html"> 
+              </a>
             </div>
+            <img class="card-img-bottom" src="personas.png" alt="Card image cap">
+          </div>
         </div>
+
+        <div class="col-sm-6">
+          <div class="card m-4 text-center card-custom text-light">
+            <div class="card-body">
+              <h5 class="card-title">Responsive Redesign</h5>
+              <a class="stretched-link" href="persona.html"> 
+              </a>
+            </div>
+            <img class="card-img-bottom" src="personas.png" alt="Card image cap">
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card m-4 text-center card-custom text-light">
+            <div class="card-body">
+              <h5 class="card-title">Iterative Design</h5>
+              <a class="stretched-link" href="persona.html"> 
+              </a>
+            </div>
+            <img class="card-img-bottom" src="personas.png" alt="Card image cap">
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card m-4 text-center card-custom text-light">
+            <div class="card-body">
+              <h5 class="card-title">Development</h5>            
+              <a class="stretched-link" href="persona.html"> 
+              </a>
+            </div>
+            <img class="card-img-bottom" src="personas.png" alt="Card image cap">
+          </div>
+        </div>
+        
+        
+      </div>
+      </div>
+      <div class="container">
+        <hr>
+      </div>
+    
+      <div class="footer d-flex flex-column justify-content-center text-center text-light">
+        <h4> Thanks for checking out my Portfolio!</h4>
+      </div>
     </div>
 
-
-
-      <div class="d-flex flex-column blanket justify-content-center align-items-center">
-        <h1 class="text-light">More Coming Soon</h1>
-
-    </div>
-
+   
   </body>
 </html>
